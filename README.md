@@ -7,6 +7,20 @@ This project presents an interactive Excel dashboard designed for analyzing sale
 
 ---
 
+## 🧩 Data Model & Relationships
+
+A relational data model was created in **Excel’s Power Pivot** to efficiently manage multiple tables and support dynamic analysis.
+
+**Entities:**
+- `Customers`
+- `Orders`
+- `Products`
+- `Metadata` (File data)
+
+**Relationships:**
+- `Customers[Customer_ID]` → `Orders[Customer_ID]`
+- `Products[Product_ID]` → `Orders[Product_ID]`
+
 ## 📊 Dashboard Highlights
 
 - **Total Revenue**: ₹35,20,984  
